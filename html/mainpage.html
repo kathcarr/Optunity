@@ -1,18 +1,22 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <link href='mainpage.css' rel= 'stylesheet'></link>
+    <link href='../css/mainpage.css' rel= 'stylesheet'></link>
   </head>
   <body>
 
   <div class="toolbar">
-  <a class="active" href="mainpage.html">Home</a>
-  <a href="#news">Opprotunities</a>
-  <a href="resource.html">Resources</a>
+  <a class="active" href="../html/mainpage.html">Home</a>
+  <a href="../html/resource.html">Opportunities</a>
+  <a href="../html/resource.html">Resources</a>
   </div>
 
-    <center><img id='heading' src= 'fakelogo.png'></img></center>
-    <p><center><input type= 'text' placeholder= "State"></center></p>
-    <center><button type= 'button' onclick= 'filterbystate()'>Sort by state</button></center>
+    <center><img id='heading' src= '../img/fakelogo.png'></img></center>
+    <center><input list="States" type="text" placeholder="State">
+    <datalist id="state">
+      <option value="Pennsylvania"/>
+      <option value="New Jersey"/>
+      <option value="Deleware"/>
+    </datalist></center>
   </body>
 </html>
