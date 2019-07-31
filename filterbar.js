@@ -1,11 +1,24 @@
+var listint = []
+function listaddkey(subject){
+    listint.push(subject);
+}
+var listrole = []
+function listaddrole(job){
+  listrole.push(job);
+}
+var listgrade = []
+function listaddgrade(grade){
+  listgrade.push(grade);
+}
 
-var jobs = [{"role":"intern", "location":"[NJ,PA,DE]","name":"Bank of America Student Leaders","grade":"[11,12]","app":"https://about.bankofamerica.com/en-us/global-impact/student-leader-eligibility-criteria.html#fbid=EaSqu7HgIT5","key":"[business]","description":"Eight week paid summer internship for current highschool Juniors and Seniors at local companies and non-profits."
-},{"role":"sumpro", "location":"[NJ,PA]","name":"GenCyber Camp","description":"Cyber Security camp for rising high school juniors and senior that teaches them about national security", "grade":"[11,12]","app":"https://www.gen-cyber.com/camps/","key":"compsci"},{"role":"opp", "location":"[PA]","name":"MESA: Aquaponics (Engineering Urban Sustainability)","description":"The MESA Saturday Academy in Urban Sustainability, Agriculture and Responsibility (AUSAR) is a pre-college high school program for 9-12th grade students enrolled in CTE agriculture, horticulture, IT, and engineering technology programs.   Students spend 10 weeks conducting research, developing technology skills and exploring undergraduate degrees in engineering and computer science that help sustain our critical infrastructure – access to clean water, nutritious food, viable transportation and renewable energy.", "grade":"[9,10,11,12]","app":"https://pennsylvaniamesa.org/programs/","key":"eng"}]
+var jobs = [{"role":"intern", "location":"[NJ,PA,DE]","name":"Bank of America Student Leaders","grade":"upper","app":"https://about.bankofamerica.com/en-us/global-impact/student-leader-eligibility-criteria.html#fbid=EaSqu7HgIT5","key":"business","description":"Eight week paid summer internship for current highschool Juniors and Seniors at local companies and non-profits."
+},{"role":"sumpro", "location":"[NJ,PA]","name":"GenCyber Camp","description":"Cyber Security camp for rising high school juniors and senior that teaches them about national security", "grade":"upper","app":"https://www.gen-cyber.com/camps/","key":"compsci"},{"role":"opp", "location":"[PA]","name":"MESA: Aquaponics (Engineering Urban Sustainability)","description":"The MESA Saturday Academy in Urban Sustainability, Agriculture and Responsibility (AUSAR) is a pre-college high school program for 9-12th grade students enrolled in CTE agriculture, horticulture, IT, and engineering technology programs.   Students spend 10 weeks conducting research, developing technology skills and exploring undergraduate degrees in engineering and computer science that help sustain our critical infrastructure – access to clean water, nutritious food, viable transportation and renewable energy.", "grade":"","app":"https://pennsylvaniamesa.org/programs/","key":"engineering"}]
 function test(){
   for (var i = 0; i < jobs.length; i++) {
-    if(jobs[i]['role'] == 'intern') {
-    console.log(jobs[i]['name']);
+    if(listrole.includes(jobs[i]['role']) && listint.includes(jobs[i]['key']) && (listgrade.includes(jobs[i]['grade'])|| jobs[i]['grade'] =='')) {
+      console.log(jobs[i]['name']);
   }
+
   }
 
 }
