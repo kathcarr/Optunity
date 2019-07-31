@@ -1,18 +1,8 @@
-/*#toolbar {
-    position: fixed;
-    width: 100%;
-    border: 2px solid black;
-    background-color: white;
-    margin:10px;
-    height: 25px;
-    top: 0;
-    left: 0;
-    padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
+/*
     body {
-        margin-top: 60px;
-        background-image: url("d.svg");
         background color: #cccccc
-    }
+        */
+      
     .toolbar {
       background-color: darkblue;
       overflow: hidden;
@@ -38,12 +28,4 @@
 
     }
 
-}
-
-img {
-  float: left;
-}
-
-img {
-  float: left;
 }
