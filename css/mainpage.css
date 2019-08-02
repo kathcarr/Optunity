@@ -6,6 +6,9 @@ body {
       height:100px;
       width: 20%;
     }
+      #drop {
+        background-image: url('P.png');
+      }
     .toolbar {
       border: 5px solid white;
       length: 500px;
