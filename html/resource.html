@@ -1,4 +1,54 @@
 <!DOCTYPE html>
+
+<script>
+var i =0;
+var image =[];
+var secs =5000;
+
+// make Image list
+
+image[0]='../img/city.jpg';
+image[1]= '../img/code.jpg';
+image[2]= '../img/busy.jpg';
+//img[3]= '4.png';
+//img[4]= '5.png';s
+//make a function that changes the images
+function slideshow(){
+  document.slide.src = image[i];
+
+  if(i < image.length - 1){
+    i++;
+  } else {
+    i = 0;
+  }
+
+  setTimeout( "slideshow()", secs);
+}
+window.onload = slideshow;
+  /*var s=0;
+  var img=[];
+  var sec= 2000;
+//make image list//
+  img[0]= "4k-.jpg";
+  img[1]= "books.jpg";
+  img[2]= "busy.jpg";
+  img[3]= "city.jpg";
+  //create slideshows//
+  function slideshows(){
+
+    document.slide.src =img[s];
+    if (s < img.length -1 ){
+      s++;
+    } else {
+        s =0;
+    }
+    setTimeout("slideshows()", sec);
+  }
+  window.onload = slideshows;*/
+</script>
+
+
+
 <html>
   <head>
     <img id='logo' src= "../img/P (2).jpg"></img>
@@ -7,15 +57,16 @@
    <a href="../html/optunity.html">Opportunities</a>
    <a class="active" href="../html/resource.html">Resources</a>
    </div>
+   <div>
+     <p>
+    <center><img name ="slide" width="600" height= "320"></center>
+  </p>
     <link rel='stylesheet' href='../css/resource.css'> </link>
     <link href="https://fonts.googleapis.com/css?family=Anton|Francois+One&display=swap" rel="stylesheet">
   </head>
 
 <body>
 
-
-
-<center><h1>Build Your Profile!<h1></center>
 
 <center><h2> Job and Internship Resources!</h2><center>
 
@@ -36,19 +87,24 @@
 <h3> Philadelphia SAT Prep </h3>
   <p>
 
-<p><a href="https://locations.sylvanlearning.com/us/philadelphia-pa/sat-prep">sylvanlearning</a></p>
-<p><a href ="https://www.philadelphiafutures.org/">philadelphia Futures</a></p>
+<p><a href="https://locations.sylvanlearning.com/us/philadelphia-pa/sat-prep">Sylvanlearning</a></p>
+<p><a href ="https://www.philadelphiafutures.org/">Philadelphia Futures</a></p>
 <p><a href ="http://www.accelacademy.com/main/"> Accelacademy </a></p>
 
 </p>
 <h3> New Jersey SAT Prep </h3>
-<p><a href ="https://www.esctestprep.com/new-jersey-nj-sat-test-prep-new-jersey-nj.htm">esctestprep</a></p>
+<p><a href ="https://www.esctestprep.com/new-jersey-nj-sat-test-prep-new-jersey-nj.htm">Esctestprep</a></p>
 <p><a href  ="https://www.800score.com/sat-new_jersey.html">800score</a></p>
 
 
 <h3> Delaware </h3>
 <p><a href ="http://www.pcs.udel.edu/sat-test-prep/"> PCS </a></p>
 <p><a href="https://y2academy.com/hockessin-campus-de/">Y2academy</a></p>
+<h2> Collegeboard <h2>
+<p><a href ="https://www.collegeboard.org/"> Collegeboard Link </a></p>
+<h2> Naviance <h2>
+<p><a href ="https://www.naviance.com/"> Naviance Link </a></p>
+<h2> Online Virtual To of Colleges <h2>
+<p><a href ="https://www.youvisit.com/collegesearch"> You Visit </a></p>
 
 </html>
-
