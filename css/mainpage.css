@@ -9,29 +9,4 @@ body {
       #drop {
         float: center;
       }
-    .toolbar {
-      border: 5px solid white;
-      length: 500px;
-      padding: 10px;
-      background-color: orange;
-      overflow: hidden;
-    }
-
-
-    .toolbar a {
-      float: left;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      font-size: 20px;
-    }
-
-
-
-    .toolbar a:hover {
-      background-color: white;
-      color: black;
-    }
-
-  .toolbar a.active {
-      background-color: white;
+    
