@@ -10,5 +10,8 @@ body {
       #States {
         float: center;
         font-style: arial;
-      }
+    }
+      #drop {
+        font-style: arial;
+    }
     
