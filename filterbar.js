@@ -1,5 +1,5 @@
+var jobs = []
 function onInput() {
-   var jobs = []
     var value = document.getElementById("drop").value;
    if (value== "Pennsylvania"){
      value = "PA"
