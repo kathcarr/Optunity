@@ -1,12 +1,14 @@
 body {
         margin-top: 20px;
         background-image: url('../img/P.png');
+        font-style: arial;
     }
       #logo {
       height:100px;
       width: 20%;
     }
-      #drop {
+      #States {
         float: center;
+        font-style: arial;
       }
     
