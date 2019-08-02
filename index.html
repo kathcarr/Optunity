@@ -12,11 +12,18 @@
   </div>
 
     <center><img id='heading' src= 'img/fakelogo.png'></img></center>
-    <center><input list="States" type="text" placeholder="State">
+    <center><input id='drop' list="States" type="text" placeholder="State" oninput="onInput()">
     <datalist id="States">
       <option value="Pennsylvania"/>
       <option value="New Jersey"/>
       <option value="Deleware"/>
     </datalist></center>
+
+    <script>
+       function onInput() {
+         var value = document.getElementById("drop").value;
+         console.log(value);
+       }
+    </script>
   </body>
 </html>
