@@ -1,13 +1,14 @@
 body {
         margin-top: 20px;
         background-color: white;
+        background-image: url('img/P.png');
     }
       #logo {
       height:100px;
       width: 20%;
     }
       #drop {
-        background-image: url('img/P.png');
+        float: center;
       }
     .toolbar {
       border: 5px solid white;
