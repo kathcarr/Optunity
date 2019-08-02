@@ -10,7 +10,7 @@ function onInput() {
    if (value== "New Jersey"){
      value = "NJ"
    }
-   window.location.href = "/html/optunity.html";
+   window.location.href = "html/optunity.html";
    for (var i = 0; i < listjobs.length; i++){
      if (listjobs[i]['location'].includes(value)){
      jobs.push(listjobs[i])
