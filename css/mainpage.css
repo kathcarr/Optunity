@@ -7,7 +7,7 @@ body {
       width: 20%;
     }
       #drop {
-        background-image: url('P.png');
+        background-image: url('img/P.png');
       }
     .toolbar {
       border: 5px solid white;
