@@ -1,9 +1,10 @@
-  body {
+body {
         margin-top: 20px;
         background-color: white;
-    }
-      #logo {
-      height:100px;
+        font-family: Arial;
+}
+    #logo {
+      height:150px;
       width: 20%;
     }
     .toolbar {
@@ -32,3 +33,8 @@
 
   .toolbar a.active {
       background-color: white;
+}
+
+textarea {
+ font-family: Arial;
+
