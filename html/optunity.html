@@ -3,20 +3,56 @@
   <head>
     <link href='../css/optunity.css' rel='stylesheet'></link>
     <script src='../filterbar.js'></script>
-    <img id='logo' src= "../img/P (2).jpg"></img>
+    <img id='logo2' src="../img/cropped.jpg"></img>
     <div>
 
   </head>
   <body>
 
     <div class="toolbar">
- <a href="../html/index.html">Home</a>
+ <a  href="../index.html">Home</a>
  <a class="active" href="../html/optunity.html">Opportunities</a>
  <a href="../html/resource.html">Resources</a>
  </div>
 
     <font color="black"><center><h2 style="font-size:3vw">
       Showing Opportunities by State
+
+      <center><img name ="slide" width="600" height= "320"></center>
+
+      <script>
+        var i =0;
+        var image =[];
+        var secs =2000;
+     // make Image list
+       image[0]='../img/gwc.jpg';
+       image[1]= '../img/icamp.jpg';
+       image[2]= '../img/gwc.jpg';
+       image[3]= '../img/princeton.jpg';
+       image[4]= '../img/wts.jfif';
+       image[5]= '../img/mse.jpg';
+       image[6]= '../img/liberty.jfif';
+       image[7]= '../img/liberty.jfif';
+       image[8]= '../img/liberty.jfif';
+       image[9]= '../img/liberty.jfif';
+       image[10]= '../img/liberty.jfif';
+       image[11]= '../img/liberty.jfif';
+       image[12]= '../img/liberty.jfif';
+       image[13]= '../img/liberty.jfif';
+     //make a function that changes the images
+     function slideshow(){
+       document.slide.src = image[i];
+       if(i < image.length - 1){
+         i++;
+       } else {
+         i = 0;
+       }
+       setTimeout( "slideshow()", secs);
+     }
+     window.onload = slideshow;
+     </script>
+
+
     </h2></center></font>
     <button type="button" onclick="wipe()">Clear Filters</button>
     <h1>Intrests</h1>
@@ -52,10 +88,6 @@
   <input type="checkbox" onclick="listaddkey('business')">
   <span class="checkmark"></span>
 </label>
-<label class="container">Other
-  <input type="checkbox" onclick="listaddkey('opp')">
-  <span class="checkmark"></span>
-</label>
 <h1>Types of Opportunities</h1>
 <label class="container">Summer Programs
   <input type="checkbox" onclick="listaddrole('sumpro')">
@@ -87,3 +119,4 @@
 <center><div id ="joblist"></div></center>
 
   </body>
+
