@@ -1,6 +1,7 @@
 body {
         margin-top: 20px;
         background-image: url('../img/P.png');
+        background-size: cover;
         font-style: arial;
     }
       #logo {
