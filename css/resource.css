@@ -1,14 +1,24 @@
 body {
-        margin-top: 20px;
-        background-color: white;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color:#FFE4C4;
         font-family: Arial;
 }
-    #logo {
-      height:150px;
-      width: 20%;
+
+
+
+    #logo2{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      height:180px;
+      width: 100%;
+
+
     }
     .toolbar {
-      border: 5px solid white;
+      border: 0px;
       length: 500px;
       padding: 10px;
       background-color: orange;
@@ -38,3 +48,14 @@ body {
 textarea {
  font-family: Arial;
 
+ .column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
