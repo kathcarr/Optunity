@@ -8,10 +8,15 @@ body {
       height:100px;
       width: 20%;
     }
-      #States {
-        float: center;
-        font-style: arial;
-    }
+     #PA {
+     font-style: arial;
+}
+     #NJ {
+     font-style: arial;
+}
+     #DE {
+     font-style: arial;
+}
       #drop {
         font-style: arial;
     }
