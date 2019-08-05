@@ -46,6 +46,7 @@ var listmatch = [];
 function test() {
   console.log(jobs.length)
 var state = window.localStorage.getItem('state')
+console.log(state)
   //document.getElementById("joblist").innerHTML = "";
   for (var i = 0; i < jobs.length; i++) {
     if((listrole.includes(jobs[i]['role']) || listrole == '') && (listint.includes(jobs[i]['key'])|| listint == '') && (listgrade.includes(jobs[i]['grade'])|| jobs[i]['grade'] =='' || listgrade == '') && jobs[i]['location'].includes(state)) {
