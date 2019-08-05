@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link href= '../css/filterbar.css'rel='stylesheet'/>
+  <script src='../filterbar.js'></script>
+</head>
+<body>
+
+<h1>Intrests</h1>
+<label class="container">Science
+  <input type="checkbox" onclick="listaddkey('science')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">English
+  <input type="checkbox" onclick="listaddkey('english')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Medicine
+  <input type="checkbox" onclick="listaddkey('med')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Engineering
+  <input type="checkbox" onclick="listaddkey('engineering')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Politics
+  <input type="checkbox" onclick="listaddkey('politics')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Computer Science
+  <input type="checkbox" onclick="listaddkey('compsci')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Arts
+  <input type="checkbox" onclick="listaddkey('art')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Business
+  <input type="checkbox" onclick="listaddkey('business')">
+  <span class="checkmark"></span>
+</label>
+<h1>Types of Opportunities</h1>
+<label class="container2">Summer Programs
+  <input type="checkbox" onclick="listaddrole('sumpro')">
+  <span class="checkmark"></span>
+</label>
+<label class="container2">Internships
+  <input type="checkbox" onclick="listaddrole('intern')">
+  <span class="checkmark"></span>
+</label>
+<label class="container2">Other Opportunities
+  <input type="checkbox" onclick="listaddrole('opp')">
+  <span class="checkmark"></span>
+</label>
+<h1>Grades</h1>
+<label class="container">9th and 10th
+  <input type="checkbox" onclick="listaddgrade('lower')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">11th and 12th
+  <input type="checkbox" onclick="listaddgrade('upper')">
+  <span class="checkmark"></span>
+</label>
+<label class="container">College
+  <input type="checkbox" onclick="listaddgrade('college')">
+  <span class="checkmark"></span>
+</label>
+
+<button type="button" onclick="test()">Click to test</button>
+<center><div id ="joblist">
+</div></center>
+</body>
+</html>
