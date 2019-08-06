@@ -3,6 +3,7 @@ body {
         background-image: url('../img/P.jpg');
         background-size: cover;
         font-style: arial;
+        align-items: center;
     }
       #logo {
       height:100px;
@@ -10,5 +11,6 @@ body {
     }
       #drop {
         font-style: arial;
+        font-size: 20px;
+        margin-top: 7px;
     }
-    
