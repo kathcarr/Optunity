@@ -1,3 +1,7 @@
+#joblist{
+  margin: 50px
+}
+
 .container {
  display: block;
  position: relative;
@@ -173,5 +177,3 @@ body {
   .toolbar a.active {
       background-color: white;
 }
-
-
