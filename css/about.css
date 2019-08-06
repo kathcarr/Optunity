@@ -1,0 +1,42 @@
+
+body {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color:#FFE4C4;
+        font-family: Arial;
+    }
+
+  #logo2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    height:180px;
+    width: 100%;
+}
+
+    .toolbar {
+      border: 0px;
+      length: 500px;
+      padding: 10px;
+      background-color: orange;
+      overflow: hidden;
+    }
+
+
+    .toolbar a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 20px;
+    }
+
+ .toolbar a:hover {
+      background-color: white;
+      color: black;
+    }
+
+  .toolbar a.active {
+      background-color: white;
+}
