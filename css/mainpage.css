@@ -1,16 +1,26 @@
 body {
-        margin-top: 20px;
-        background-image: url('../img/P.jpg');
-        background-size: cover;
-        font-style: arial;
-        align-items: center;
+        background-color:#FFE4C4;
+
+        font-style: Arial;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
     }
       #logo {
       height:100px;
       width: 20%;
     }
       #drop {
-        font-style: arial;
-        font-size: 20px;
-        margin-top: 7px;
+        font-style: Arial;
+        position: absolute;
+        top: 60px;
+        left: 580px;
+        text-align: center;
     }
+
+#homeimage{
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
